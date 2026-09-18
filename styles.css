@@ -1,0 +1,56 @@
+html{
+    font-size: 20px;
+}
+body{
+    
+    font-size: 30px;
+    
+}
+
+
+
+.juan {
+    background-color: aqua;
+    font-size: 2em;
+}
+
+.jose{
+    background-color: blueviolet;
+    font-size: 2em;
+}
+
+.pepe{
+    background-color: cadetblue;
+    font-size: 2em;
+}
+
+.paco{
+    background-color: chocolate;
+    font-size: 2rem;
+}
+
+
+.viewportuno{
+    background-color: blue;
+    height: 100vh;
+}
+
+.viewportdos{
+    background-color: crimson;
+    height: 100vh;
+}
+
+.padre{
+    background-color: cyan;
+    width: 50%;
+}
+
+.hijouno{
+    background-color: blueviolet;
+    width: 75%;
+}
+
+.hijodos{
+    background-color: darkgoldenrod;
+    width: 75vw;
+}
