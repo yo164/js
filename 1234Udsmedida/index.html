@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+
+
+    <div class="pepe">Pepe</div>
+    <div class="juan">Juan</div>
+    <div class="jose">Jose</div>
+    <div class="paco">Paco</div>
+    <!-- Los tres primeros divs se muestran en el tamaño acorde al tamaño de letra en este caso relativa a la fuente del elemento padre
+     mientras que el último lo hace relativo a la raiz del html -->
+
+    <div class="pepe">Pepe
+            <div class="juan">Juan
+                    <div class="jose">Jose
+                            <div class="paco">Paco</div>
+
+                    </div>
+
+            </div>
+
+    </div>
+    <!-- Cada uno el doble de grande que el anterior debido a que tienen la fuente 2 vedes 
+     mas grande que el elemento padre mientras que el último sigue haciendolo de la raiz del html -->
+
+    <div class="viewportuno">
+
+    </div>
+    <div class="viewportdos">
+
+    </div>
+    <!-- Cada uno de los divs pas aa ocupar el total de altura que nos permita el dispositivo
+     por su configuracion de viewport, cada uno de ellos tendra siempre el 100% de la altura del dispositivo
+     donde se abra-->
+
+    <div class="padre">
+        Padre
+        <div class="hijouno">Hijo Uno</div>
+        <div class="hijodos">Hijo Dos</div>
+    </div>
+</body>
+</html>
