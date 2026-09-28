@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const array3 = ["i", "]", "kK", "I"];
     const array4 = array1.concat(array2).concat(array3);
 
-
+/**
+ * añado comentarios para push de prueba de consola
+ */
     for (const element of array4) {
         console.log(element);
         document.write(element);
